@@ -59,11 +59,7 @@ let celebrities = [
 function initialize() {
     let divEl = document.querySelector(".celebrities-list");
 
-    for (let i = 0; i < celebrities.length; i++) {
-        divEl.innerHTML += `<div class='celebrity-img-div' 
-        style="background-image: url(${celebrities[i].imgURL});" onclick="changeDetails(${i})">
-        <p class="celebrity-name"> ${celebrities[i].name}</p>
-        </div>`;
+  
     }
 }
 
