@@ -1,4 +1,4 @@
-## Quotes App
+# Quotes App
 
 
 ### Here is the link of app:
